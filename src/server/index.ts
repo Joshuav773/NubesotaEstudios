@@ -1,4 +1,5 @@
 import './setup';
+import './index.js';
 
 import { SHARED_CONSTANTS } from '@shared/constants';
 

@@ -22,6 +22,10 @@ lib-cov
 coverage
 *.lcov
 
+# OS metadata
+.DS_Store
+Thumbs.db
+
 # nyc test coverage
 .nyc_output
 
@@ -46,6 +50,9 @@ typings/
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Ignore built ts files
+dist/**/*
 
 # Optional npm cache directory
 .npm

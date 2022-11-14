@@ -1,4 +1,5 @@
 import { SHARED_CONSTANTS } from '@shared/constants';
+import './index.js';
 
 mp.events.add('playerReady', () => {
 	mp.console.logInfo(`${mp.players.local.name} is ready!`);
